@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/_jadmin/Desktop/Assign2/Plants/PlantsTest/PlantsTest.csproj": {}
+  },
+  "projects": {
+    "/Users/_jadmin/Desktop/Assign2/Plants/Plants/Plants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/_jadmin/Desktop/Assign2/Plants/Plants/Plants.csproj",
+        "projectName": "Plants",
+        "projectPath": "/Users/_jadmin/Desktop/Assign2/Plants/Plants/Plants.csproj",
+        "packagesPath": "/Users/_jadmin/.nuget/packages/",
+        "outputPath": "/Users/_jadmin/Desktop/Assign2/Plants/Plants/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/_jadmin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/_jadmin/Desktop/Assign2/Plants/PlantsTest/PlantsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/_jadmin/Desktop/Assign2/Plants/PlantsTest/PlantsTest.csproj",
+        "projectName": "PlantsTest",
+        "projectPath": "/Users/_jadmin/Desktop/Assign2/Plants/PlantsTest/PlantsTest.csproj",
+        "packagesPath": "/Users/_jadmin/.nuget/packages/",
+        "outputPath": "/Users/_jadmin/Desktop/Assign2/Plants/PlantsTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/_jadmin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/_jadmin/Desktop/Assign2/Plants/Plants/Plants.csproj": {
+                "projectPath": "/Users/_jadmin/Desktop/Assign2/Plants/Plants/Plants.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
